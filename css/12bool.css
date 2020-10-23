@@ -19,9 +19,10 @@
 [class*='col-'] {
   float: left;
   height: 100%;
+  width: 100%;
 }
 
-/* dispositivi LG */
+/* ----------dispositivi LG---------- */
 @media screen and (min-width: 992px) {
 
   .col-lg-1 {
@@ -98,7 +99,7 @@
 
 }
 
-/* dispositivi XS */
+/*----------dispositivi XS---------- */
 @media screen and (max-width: 767px) {
 
   .col-xs-1 {
@@ -138,6 +139,7 @@
     width: 100%;
   }
 
+  /* offset */
   .col-offset-xs-1 {
     margin-left: calc((100% / 12));
   }
@@ -174,7 +176,7 @@
 
 }
 
-/* dispositivi MD */
+/* ----------dispositivi MD---------- */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
   .col-md-1 {
@@ -214,6 +216,7 @@
     width: 100%;
   }
 
+  /* offset */
   .col-offset-md-1 {
     margin-left: calc((100% / 12));
   }
@@ -247,5 +250,4 @@
   .col-offset-md-11 {
     margin-left: calc((100% / 12) * 11);
   }
-
 }

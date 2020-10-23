@@ -23,6 +23,45 @@ body {
   }
 }
 
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+  header {
+    padding-top: 40px;
+  }
+  header, footer {
+    background-color: #f7ea94;
+  }
+  h1, h2 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  img {
+    height: 150px;
+  }
+  footer [class*='col-']  img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px;
+  }
+}
 
-@media screen and (min-width: 768px) and (max-width: 991px) {}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    padding-top: 60px;
+  }
+  h1, h2 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  img {
+    height: 200px;
+  }
+  footer [class*='col-']  img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px;
+  }
+}
